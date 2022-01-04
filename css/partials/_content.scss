@@ -1,0 +1,21 @@
+.content {
+//   border: 1px solid blue;
+  height: 70%;
+  width: calc(80vw - 300px);
+
+  margin-left: 60px;
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 48px;
+  color: #edf1f7;
+}
+
+.content p {
+  font-size: 32px;
+  color: #edf1f7;
+}

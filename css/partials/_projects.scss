@@ -10,6 +10,7 @@
 .slices .logo {
   &:hover {
     transform: scale(1.05);
+    transition: .5s;
   }
 }
 
@@ -25,7 +26,7 @@
 }
 
 .arrow {
-    margin: 35px;
+  margin: 35px;
   width: 0;
   height: 0;
   border-width: 10px 20px 10px 0;

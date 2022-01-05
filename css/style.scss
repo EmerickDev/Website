@@ -1,3 +1,4 @@
+@import "partials/colors";
 *,
 *::after,
 *::before {
@@ -6,8 +7,6 @@
   box-sizing: border-box;
   font-family: "Mukta", sans-serif;
 }
-
-@import "partials/colors";
 
 body {
   width: 100%;
@@ -40,3 +39,4 @@ svg {
 @import "partials/nav-menu";
 @import "partials/content";
 @import "partials/projects";
+@import "partials/skills";

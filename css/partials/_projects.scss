@@ -1,0 +1,35 @@
+.slices {
+  //   border: 1px solid blue;
+  max-width: 70vw;
+  margin-left: 30px;
+
+  display: flex;
+  height: 240px;
+}
+
+.slices .logo {
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.slices img {
+  height: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hidden {
+  display: none;
+  overflow: hidden;
+}
+
+.arrow{
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    position: absolute;
+}
+
+

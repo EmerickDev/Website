@@ -75,7 +75,7 @@ svg {
   list-style: none;
 }
 
-img {
+.nav-menu img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -109,5 +109,38 @@ a {
 .content p {
   font-size: 32px;
   color: #edf1f7;
+}
+
+.slices {
+  max-width: 70vw;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 240px;
+}
+
+.slices .logo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.slices img {
+  height: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hidden {
+  display: none;
+  overflow: hidden;
+}
+
+.arrow {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

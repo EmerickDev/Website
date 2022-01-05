@@ -82,10 +82,23 @@ svg {
   border: 3px solid var(#959698);
 }
 
-a {
+.nav-items a {
   font-size: 18px;
   text-decoration: none;
   color: #edf1f7;
+}
+
+.content .name {
+  color: #2a2a2a;
+}
+
+.content .number-email {
+  color: #2a2a2a;
+}
+
+.text {
+  color: #f9f9f9;
+  font-size: 20px;
 }
 
 .content {

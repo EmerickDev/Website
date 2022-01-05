@@ -137,10 +137,12 @@ a {
 }
 
 .arrow {
-  color: white;
-  width: 20px;
-  height: 20px;
-  margin: 5px;
+  margin: 35px;
+  width: 0;
+  height: 0;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #e5e9ef transparent transparent;
+  border-style: solid;
   position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

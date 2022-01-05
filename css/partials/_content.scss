@@ -1,5 +1,5 @@
 .content {
-//   border: 1px solid blue;
+  //   border: 1px solid blue;
   height: 70%;
   width: calc(80vw - 300px);
 
@@ -18,4 +18,18 @@
 .content p {
   font-size: 32px;
   color: #edf1f7;
+}
+
+.socials span {
+  margin-left: 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: #272a31;
+    transform: scale(1.2);
+  }
 }

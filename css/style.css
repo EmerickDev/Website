@@ -111,6 +111,21 @@ a {
   color: #edf1f7;
 }
 
+.socials span {
+  margin-left: 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: black;
+}
+
+.socials a:hover {
+  color: #272a31;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .slices {
   max-width: 70vw;
   margin-left: 30px;

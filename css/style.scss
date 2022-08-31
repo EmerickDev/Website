@@ -22,7 +22,6 @@ body {
 .body {
   display: flex;
   flex-direction: row;
-
   align-items: center;
 }
 
@@ -40,3 +39,4 @@ svg {
 @import "partials/content";
 @import "partials/projects";
 @import "partials/skills";
+@import "partials/mobile";

@@ -10,7 +10,7 @@
 .slices .logo {
   &:hover {
     transform: scale(1.05);
-    transition: .5s;
+    transition: 0.5s;
   }
 }
 
@@ -33,4 +33,17 @@
   border-color: transparent #e5e9ef transparent transparent;
   border-style: solid;
   position: absolute;
+}
+
+@media only screen and (max-width: 850px) {
+  .slices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slices img {
+    width: 400px;
+    margin: auto;
+  }
 }

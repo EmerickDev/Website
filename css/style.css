@@ -209,6 +209,7 @@ svg {
 }
 @media only screen and (max-width: 500px) {
   .content {
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;

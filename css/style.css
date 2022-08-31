@@ -157,6 +157,21 @@ svg {
     margin: auto;
   }
 }
+@media only screen and (max-width: 500px) {
+  .slices {
+    margin: auto;
+  }
+  .nav-menu img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border: 3px solid var(#959698);
+  }
+  .slices img {
+    width: 250px;
+    margin: auto;
+  }
+}
 @media only screen and (max-width: 850px) {
   .body {
     width: 100%;
@@ -190,5 +205,19 @@ svg {
     color: #272a31;
     transform: scale(1.2);
     transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content h1 {
+    font-size: 22px;
+  }
+  .content h2 {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

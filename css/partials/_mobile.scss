@@ -40,3 +40,18 @@
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content h1 {
+    font-size: 22px;
+  }
+  .content h2 {
+    font-size: 14px;
+  }
+}

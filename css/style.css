@@ -207,6 +207,21 @@ svg {
     transition: 0.3s;
   }
 }
+@media only screen and (max-width: 650px) {
+  .content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content h1 {
+    font-size: 24px;
+  }
+  .content h2 {
+    font-size: 18px;
+  }
+}
 @media only screen and (max-width: 500px) {
   .content {
     padding-top: 50px;

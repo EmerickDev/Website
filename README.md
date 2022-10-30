@@ -1,3 +1,3 @@
 # EmerickDev-Netlify
 Personal Website
-https://emerickdev.netlify.app/
+https:/emerick.com.au

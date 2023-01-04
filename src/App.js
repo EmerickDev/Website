@@ -5,10 +5,27 @@ function App() {
     <>
       <div className="landing-page">
         <div className="nav-menu">
-          <div className="logo" src="" alt="logo" />
+          <div className="logo" src="" alt="logo">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.45032 6.70372V0.992676H19.4503V2.72576V4.84253H13.3949H7.27789L13.3949 9.68673L7.27789 15.0153H18.3258H19.4503V18.9927H1.45032V13.0267L5.89691 9.68673L1.45032 6.70372Z"
+                stroke="#64FFDA"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
           <div className="menu-items">
             <a href="#contact">Contact</a>
-            <a href="/projects/spyder/index.html" target="_blank">Project</a>
+            <a href="/projects/spyder/index.html" target="_blank">
+              Project
+            </a>
             <a href="#menu">About</a>
           </div>
         </div>
@@ -25,7 +42,11 @@ function App() {
             </p>
           </span>
 
-          <button type="button"><a href="/projects/spyder/index.html" target="_blank">Check out My Projects</a></button>
+          <button type="button">
+            <a href="/projects/spyder/index.html" target="_blank">
+              Check out My Projects
+            </a>
+          </button>
           <div className="spiderman-logo">
             <svg
               width="1793"
@@ -192,8 +213,7 @@ function App() {
             </svg>
           </div>
         </div>
-        <div className="back-image">
-        </div>
+        <div className="back-image"></div>
         <div className="back-image2"></div>
         <div className="socials">
           <a

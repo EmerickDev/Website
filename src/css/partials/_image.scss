@@ -1,0 +1,63 @@
+.logo {
+  width: 42px;
+  height: 42px;
+  fill: #64ffda;
+  margin-left: 42px;
+  background-image: url(/public/e.svg) no-repeat;
+  background-repeat: no-repeat;
+}
+
+
+.spiderman-logo svg {
+  display: none;
+  background: url(/public/spiderman-logo.svg) no-repeat;
+  position: absolute;
+  left: 280px;
+  bottom: 188px;
+  background: linear-gradient(180deg, #272a31 0%, #0a0c10 100%);
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+.back-image {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+
+  top: 150px;
+  right: 320px;
+  background: url(/public/emerick-img1.svg) no-repeat;
+
+  border: 1px solid #6644ff;
+  border-radius: 50px;
+
+  filter: drop-shadow(0px 173px 80px rgba(100, 255, 218, 0.0469654))
+    drop-shadow(0px 79.4188px 83.2637px rgba(100, 255, 218, 0.0409859))
+    drop-shadow(0px 49.4847px 80.4716px rgba(100, 255, 218, 0.0391737))
+    drop-shadow(0px 32.8619px 65.47px rgba(100, 255, 218, 0.0434873))
+    drop-shadow(0px 20.6819px 33.9911px rgba(100, 255, 218, 0.0538898))
+    drop-shadow(0px 10.1135px 10.3037px rgba(100, 255, 218, 0.07));
+  transform: matrix(0.91, 0.38, -0.44, 0.92, 0, 0);
+}
+
+.back-image2 {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+
+  bottom: 75px;
+  right: 130px;
+  background: url(/public/emerick-img2.svg) no-repeat;
+
+  border: 1px solid #6644ff;
+  border-radius: 50px;
+
+  filter: drop-shadow(0px 173px 80px rgba(100, 255, 218, 0.0469654))
+    drop-shadow(0px 79.4188px 83.2637px rgba(100, 255, 218, 0.0409859))
+    drop-shadow(0px 49.4847px 80.4716px rgba(100, 255, 218, 0.0391737))
+    drop-shadow(0px 32.8619px 65.47px rgba(100, 255, 218, 0.0434873))
+    drop-shadow(0px 20.6819px 33.9911px rgba(100, 255, 218, 0.0538898))
+    drop-shadow(0px 10.1135px 10.3037px rgba(100, 255, 218, 0.07));
+  transform: matrix(0.91, -0.38, 0.43, 0.92, 0, 0);
+}

@@ -1,0 +1,293 @@
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: auto;
+  height: 90px;
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+}
+
+.landing-page {
+  max-width: auto;
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+.menu-items a {
+  float: right;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ccd6f6;
+}
+
+.content {
+  position: relative;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 500px;
+  /* border: 1px solid purple; */
+}
+
+.content p {
+  font-family: "Poppins", sans-serif;
+}
+
+.content p:first-child {
+  color: #64ffda;
+}
+
+.content p:nth-child(2) {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 24px;
+  margin-bottom: 2px;
+}
+
+.content p:nth-child(3) {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 2px;
+}
+
+.content p:nth-child(4) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+button {
+  margin-top: 60px;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  height: 48px;
+  width: 240px;
+  left: 360px;
+  top: 585px;
+  border-radius: 0px;
+}
+
+button a {
+  text-decoration: none;
+  list-style: none;
+  color: #64ffda;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  fill: #64ffda;
+  margin-left: 42px;
+  background-image: url(/public/e.svg) no-repeat;
+  background-repeat: no-repeat;
+}
+
+.spiderman-logo svg {
+  display: none;
+  background: url(/public/spiderman-logo.svg) no-repeat;
+  position: absolute;
+  left: 280px;
+  bottom: 188px;
+  background: linear-gradient(180deg, #272a31 0%, #0a0c10 100%);
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+.back-image {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  top: 150px;
+  right: 320px;
+  background: url(/public/emerick-img1.svg) no-repeat;
+  border: 1px solid #6644ff;
+  border-radius: 50px;
+  filter: drop-shadow(0px 173px 80px rgba(100, 255, 218, 0.0469654)) drop-shadow(0px 79.4188px 83.2637px rgba(100, 255, 218, 0.0409859)) drop-shadow(0px 49.4847px 80.4716px rgba(100, 255, 218, 0.0391737)) drop-shadow(0px 32.8619px 65.47px rgba(100, 255, 218, 0.0434873)) drop-shadow(0px 20.6819px 33.9911px rgba(100, 255, 218, 0.0538898)) drop-shadow(0px 10.1135px 10.3037px rgba(100, 255, 218, 0.07));
+  transform: matrix(0.91, 0.38, -0.44, 0.92, 0, 0);
+}
+
+.back-image2 {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  bottom: 75px;
+  right: 130px;
+  background: url(/public/emerick-img2.svg) no-repeat;
+  border: 1px solid #6644ff;
+  border-radius: 50px;
+  filter: drop-shadow(0px 173px 80px rgba(100, 255, 218, 0.0469654)) drop-shadow(0px 79.4188px 83.2637px rgba(100, 255, 218, 0.0409859)) drop-shadow(0px 49.4847px 80.4716px rgba(100, 255, 218, 0.0391737)) drop-shadow(0px 32.8619px 65.47px rgba(100, 255, 218, 0.0434873)) drop-shadow(0px 20.6819px 33.9911px rgba(100, 255, 218, 0.0538898)) drop-shadow(0px 10.1135px 10.3037px rgba(100, 255, 218, 0.07));
+  transform: matrix(0.91, -0.38, 0.43, 0.92, 0, 0);
+}
+
+@media only screen and (max-width: 960px) {
+  .back-image {
+    background-image: url("/public/emerick-img1.svg") no-repeat;
+    z-index: 1;
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #6644ff;
+    filter: drop-shadow(0px 173px 80px rgba(100, 255, 218, 0.0469654)) drop-shadow(0px 79.4188px 83.2637px rgba(100, 255, 218, 0.0409859)) drop-shadow(0px 49.4847px 80.4716px rgba(100, 255, 218, 0.0391737)) drop-shadow(0px 32.8619px 65.47px rgba(100, 255, 218, 0.0434873)) drop-shadow(0px 20.6819px 33.9911px rgba(100, 255, 218, 0.0538898)) drop-shadow(0px 10.1135px 10.3037px rgba(100, 255, 218, 0.07));
+    top: 320px;
+    right: 90px;
+  }
+  .back-image2 {
+    z-index: 1;
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #6644ff;
+    filter: drop-shadow(0px 173px 80px rgba(100, 255, 218, 0.0469654)) drop-shadow(0px 79.4188px 83.2637px rgba(100, 255, 218, 0.0409859)) drop-shadow(0px 49.4847px 80.4716px rgba(100, 255, 218, 0.0391737)) drop-shadow(0px 32.8619px 65.47px rgba(100, 255, 218, 0.0434873)) drop-shadow(0px 20.6819px 33.9911px rgba(100, 255, 218, 0.0538898)) drop-shadow(0px 10.1135px 10.3037px rgba(100, 255, 218, 0.07));
+    bottom: 200px;
+    right: 98px;
+  }
+  .content {
+    width: 490px;
+    height: 430px;
+    top: 450px;
+  }
+  .content p:nth-child(4) {
+    margin-top: 10px;
+  }
+  .content p:nth-child(3) {
+    font-size: 32px;
+    width: 410px;
+    height: 40px;
+  }
+  .content p:nth-child(4) {
+    width: 425px;
+  }
+  button {
+    margin-top: 100px;
+  }
+}
+.socials {
+  position: absolute;
+  bottom: 45px;
+  left: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+}
+
+.socials a {
+  margin-right: 26px;
+}
+
+@media only screen and (max-width: 460px) {
+  button {
+    margin-left: 60px;
+  }
+  .back-image {
+    background: url(/public/emerick-mobile.svg);
+    width: 100px;
+    height: 100px;
+    background-attachment: scroll;
+    margin-left: 20px;
+  }
+  .socials {
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .content {
+    width: 375px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 220px;
+  }
+  .logo {
+    background: url(/public/mini-logo.svg) no-repeat;
+    background-attachment: scroll;
+    margin-left: 19px;
+  }
+  .content p:nth-child(1) {
+    margin-left: 40px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .content p:nth-child(2) {
+    margin-left: 40px;
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  .content p:nth-child(3) {
+    margin-left: 40px;
+    font-size: 18px;
+    width: 410px;
+    height: 40px;
+    margin-top: -15px;
+    font-weight: bold;
+  }
+  .content p:nth-child(4) {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 300px;
+    font-weight: 300;
+  }
+  .menu-items {
+    display: none;
+  }
+  .back-image {
+    background: url(/public/emerick-mobile.svg);
+    width: 120px;
+    height: 200px;
+    bottom: 250px;
+    left: 70px;
+    transform: none;
+    background-size: cover;
+    background-position-x: center;
+  }
+  .back-image2 {
+    display: none;
+  }
+  button {
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 300px;
+    margin-left: 70px;
+  }
+  .socials {
+    flex-direction: column;
+    height: 200px;
+    width: 50px;
+    top: 300px;
+    left: 250px;
+    background: transparent;
+  }
+  .socials a {
+    width: 18px;
+    height: 18px;
+    margin-top: 30px;
+    background: transparent;
+  }
+  .socials a svg {
+    background: transparent;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #112240;
+  color: #ccd6f6;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */

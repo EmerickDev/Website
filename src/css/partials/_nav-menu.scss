@@ -1,0 +1,25 @@
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: auto;
+  height: 90px;
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+}
+
+.landing-page {
+  max-width: auto;
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+.menu-items a {
+  float: right;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ccd6f6;
+}
+

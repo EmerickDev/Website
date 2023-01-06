@@ -44,7 +44,7 @@ function App() {
 
           <button type="button">
             <a href="/projects/spyder/index.html" target="_blank">
-              Check out My Projects
+              Spider Project
             </a>
           </button>
           <div className="spiderman-logo">
